@@ -1,0 +1,9 @@
+name = "empty-glade-e536"
+main = "empty-glade-e536/src/index.ts"
+compatibility_date = "2025-06-16"
+account_id = "758057be319c3ffef2bb31118d7f3ef4" 
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mie-ayam-db"
+database_id = "5c0d4a8a-facb-4ce4-b536-1dcf5d6b797e"
