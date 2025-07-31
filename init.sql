@@ -2,7 +2,7 @@
 CREATE TABLE IF NOT EXISTS users (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   username TEXT NOT NULL UNIQUE CHECK(length(username) <= 10),
-  password TEXT NOT NULL CHECK(length(password) <= 20)
+  password TEXT NOT NULL CHECK(length(password) <= 8)
 );
 
 -- Tabel transactions
